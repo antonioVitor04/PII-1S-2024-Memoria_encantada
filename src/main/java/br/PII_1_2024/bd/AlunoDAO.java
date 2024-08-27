@@ -52,7 +52,7 @@ public class AlunoDAO {
         if (rs.next()) {
             codigo = rs.getInt("id_aluno");
         }
-        //7. Fechar a conexão
+        //7. Fecha a conexão
         rs.close();
         ps.close();
         con.close();
