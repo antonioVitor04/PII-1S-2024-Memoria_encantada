@@ -11,11 +11,11 @@ package br.PII_1_2024.bd;
 import java.sql.Connection;
 import java.sql.DriverManager;
 public class ConexaoBD {
-    private static String host = "mysql-14b63315-pooteladelogin.b.aivencloud.com";
-    private static String port = "24968";
+    private static String host = "mysql-b13208-antonionapoli394-2893.k.aivencloud.com";
+    private static String port = "17265";
     private static String db = "defaultdb";
     private static String user = "avnadmin";
-    private static String password = "AVNS_8lo0TqiYiQTx6oOFY-4";
+    private static String password = "AVNS_57KmqnM--CiDvb-n2vr";
     
     //4 partes: tipo de retorno, nome,lista de parâmetros, corpo
     public static Connection obterConexao () throws Exception{
